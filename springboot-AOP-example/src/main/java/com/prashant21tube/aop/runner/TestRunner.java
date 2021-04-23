@@ -15,7 +15,7 @@ public class TestRunner implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		employeeDAO.saveEmployee();
+		employeeDAO.saveEmployee(12, "Prashant");
 		
 	}
 

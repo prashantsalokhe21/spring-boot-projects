@@ -12,7 +12,7 @@ public class TestRunner implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		customService.sampleMethod();
+		customService.sampleMethod("view","ABC",1234);
 		
 	}
 
